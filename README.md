@@ -3,10 +3,11 @@
 ### Details
 1. This Module 2 Project will illustrate the staticial track of COVID cases worldwide. My statcast will show the # of cases(infected), recovered, deaths. Providing the use of an api, The statcast would be a contiuous update of the current pandemic. I will be able to certain hotspots within given areas around the world. (attempt)
 ### Technical Challenges
-1. Axios(Api), providing a chart. 
+1. Axios(Api), providing a chart, firebase
 ### Wireframe
 
 ### Additional Features 
+Color alignment to identify three statical values
 ### Tentative Timeline 
 Tuesday : Present on Proposals/ Work on basic ideas of project. (Create a ReactJS) PseudoCode
 Wednesday : Working on JS code/ outlining of css-->Chart.js/MapBox
