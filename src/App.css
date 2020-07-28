@@ -1,8 +1,8 @@
 *{
-background-color: #F28B30;
+background-color: hsla(0, 14%, 79%, 0.424);
 }
 .container{
-  border: dotted;
+  /* border: dotted; */
   display: flex;  /*have elements(componets) on a horizonal row*/
   justify-content: center;  /*centers entire content*/
   align-items: center; /* items around the center*/

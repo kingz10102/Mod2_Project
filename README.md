@@ -21,3 +21,10 @@ Sunday : troubleshoot, review hand-in
 
 ** I will implement CSS modules to style specfic enities within Status-Blocks.  CSS Tricks
 
+
+
+References: 
+1. https://material-ui.com/components/grid/#grid
+2. https://material-ui.com/components/cards/
+3. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch
+4. https://scotch.io/tutorials/asynchronous-javascript-using-async-await
