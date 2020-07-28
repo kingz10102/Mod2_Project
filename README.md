@@ -16,3 +16,8 @@ Friday : Beginning gest of CSS, JS code
 Saturday : Countiue JS code, finalizing css
 Sunday : troubleshoot, review hand-in
 
+
+
+
+** I will implement CSS modules to style specfic enities within Status-Blocks.  CSS Tricks
+
