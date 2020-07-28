@@ -1,9 +1,9 @@
 import React from 'react';
 
-let Diagram = () => {
+let NationSelector = () => {
     return(
         <h1>Hello</h1>
     )
 }
 
-export default Diagram;
+export default NationSelector

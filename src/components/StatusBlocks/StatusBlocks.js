@@ -1,9 +1,9 @@
 import React from 'react';
 
-let Diagram = () => {
+let StatusBlocks = () => {
     return(
         <h1>Hello</h1>
     )
 }
 
-export default Diagram;
+export default StatusBlocks
