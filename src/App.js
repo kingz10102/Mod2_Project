@@ -21,8 +21,8 @@ class App extends Component {
     // console.log(data)  /*url from apicall should be in console */
   }
   render() {
-  
-    return (
+  // const { data } = this.state;
+  return (
     <div className="container">
      <StatusBlocks data= {this.state.data} />
      <NationSelector/>
