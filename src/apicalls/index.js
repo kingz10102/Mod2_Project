@@ -2,7 +2,7 @@
 
 import axios from 'axios'
 
-let url = "https://covid19.mathdro.id/api";
+let url =  'https://covid19.mathdro.id/api';
 
 export let fetchData = async () => {
     try {          /*try and catch is like conditional in some sorts that does a trial and error */
