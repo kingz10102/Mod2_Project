@@ -1,6 +1,7 @@
 import React from 'react';
 
-let StatusBlocks = () => {
+let StatusBlocks = (props) => {
+    console.log(props)
     return(
         <h1>Hello</h1>
     )
