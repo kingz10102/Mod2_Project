@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+body{
+background-color: hsla(0, 25%, 17%, 0.835);
+background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fin.pinterest.com%2Fpin%2F437693657541199712%2F&psig=AOvVaw244dBgyOVqfx8fwfF0MRIi&ust=1596209264355000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKiV6IWl9eoCFQAAAAAdAAAAABAD');
+background-repeat: no-repeat;
+background-size:  cover;
+height: 100vh;
+width: 100vw;
+margin: 0px;
+box-sizing: border-box;
+font-family:'Krona One', sans-serif; ;
+
+}
+.container{
+  /* border: dotted; */
+  display: flex; /*have elements(componets) on a horizonal row*/
+  justify-content: flex-start;  /*centers entire content*/
+  align-items: center; /* items around the center*/
+  flex-direction: column;
+  padding: 5px;
+}
+.tile{
+  color: blanchedalmond;
+}

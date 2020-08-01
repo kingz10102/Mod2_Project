@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+
+
+.wrapper {
+   margin: 70px 0;
+   display: flex;
+   padding: 30px;
+   font-family: 'Krona One', sans-serif;
+   
+
+
+   
+}
+.cards{
+    margin: 0 1% !important;
+    background-color: lawngreen;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    
+
+    
+}
+
+.cases {
+    /* border-left: 10px solid blue; */
+    /* background-color: rgb(27, 176, 230);
+    padding-right: 40px; */
+    border-left:10px solid rgb(73, 165, 207);
+    font-family: 'Krona One', sans-serif;
+
+
+}
+.deaths {
+    /* border-left: 15px solid red;
+    border-right: 15px solid red; */
+    box-shadow: 12px 12px 2px 1px, rgba(194, 45, 45, 0.643);
+    border-left:10px solid rgb(248, 129, 129);
+    padding-top: 20px;
+    justify-content: space-between;
+    
+}
+.recovered {
+    border-left:10px solid rgb(104, 246, 111);
+    
+}

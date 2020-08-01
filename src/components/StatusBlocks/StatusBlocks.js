@@ -3,10 +3,11 @@ import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
 import  Grid  from '@material-ui/core/Grid';
-import CountUp from 'react-countup'; /*react installmmeny for count up data*/
+import CountUp from 'react-countup'; /*react install for count up data*/
 import styles from './StatusBlocks.module.css';
-import cx from 'classnames'   
+import cx from 'classnames';   
 // import './App.css';
+
 
 // instead of using props, it will be deconstructered inside function with collected data
 let StatusBlocks = ({ data: {confirmed, deaths, recovered, lastUpdate } }) => {
@@ -17,10 +18,11 @@ let StatusBlocks = ({ data: {confirmed, deaths, recovered, lastUpdate } }) => {
         <div className={styles.wrapper}>
             {/* providing material UI to style statusblocks */}
             <Grid container spacing={4} justify="center">
-                <Grid item component={Card} className={cx(styles.card, styles.cases)}>
+                <Grid item component={Card} xl={5} spacing={5} className={cx(styles.card, styles.cases)}>
+                    <Card>
                     <CardContent>
                         {/* Typography just like h or p tag, material ui tag */}
-                        <Typography color="textPrimary" gutterBottom>Cases</Typography>  
+                        <Typography color="textPrimary" gutterBottom>Confirmed Cases</Typography>  
                         <Typography variant="h4">
                             <CountUp
                             start={0}
@@ -36,8 +38,14 @@ let StatusBlocks = ({ data: {confirmed, deaths, recovered, lastUpdate } }) => {
                         </Typography>
                         <Typography>Number of live cases of COVID19</Typography>
                     </CardContent>
+                    </Card>
                 </Grid>
-                <Grid item component={Card} className={cx(styles.card, styles.deaths)}>
+                <Grid 
+                item component={Card} 
+                xl={5} 
+                spacing={5} 
+                className={cx(styles.card, styles.deaths)}>
+                    <Card className="data-card">
                     <CardContent>
                         {/* Typography just like h or p tag, material ui tag */}
                         <Typography color="textPrimary" gutterBottom>Deaths</Typography>  
@@ -54,8 +62,10 @@ let StatusBlocks = ({ data: {confirmed, deaths, recovered, lastUpdate } }) => {
                         </Typography>
                         <Typography>Number of live deaths of COVID19</Typography>
                     </CardContent>
+                    </Card>
                 </Grid>
-                <Grid item component={Card} className={cx(styles.card, styles.recovered)}>
+                <Grid item component={Card} xl={5} spacing={5} className={cx(styles.card, styles.recovered)}>
+                    <Card>
                     <CardContent>
                         {/* Typography just like h or p tag, material ui tag */}
                         <Typography color="textPrimary" gutterBottom>Recoveries</Typography>  
@@ -72,6 +82,7 @@ let StatusBlocks = ({ data: {confirmed, deaths, recovered, lastUpdate } }) => {
                         </Typography>
                         <Typography>Number of live recoveries of COVID19</Typography>
                     </CardContent>
+                    </Card>
                 </Grid>
             </Grid>
         </div>
