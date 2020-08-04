@@ -17,7 +17,7 @@ let Diagram = ({country, data:{confirmed, deaths, recovered}}) => {
 // function for chart diagram
 
 const pieChar = (
-  confirmed 
+  confirmed      /*if confirmed cases  a pie chart of  # of cases. recovecovries and deaths will be presented */
     ? (
         <Pie
             data={{
@@ -25,9 +25,9 @@ const pieChar = (
                 datasets: [{
                     label: 'Person(s)',
                     backgroundColor: [
-                        'red', 
-                        'green', 
-                        'blue'],
+                        '#D91111', 
+                        'rgb(109, 194, 25)', 
+                        '#0645FF'],
                         data:[confirmed.value, recovered.value, deaths.value]
                 
                 }]

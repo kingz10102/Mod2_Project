@@ -7,17 +7,20 @@
    display: flex;
    padding: 30px;
    font-family: 'Krona One', sans-serif;
+  justify-content: space-around;
+  align-content: flex-start;
+  align-items: flex-end;
    
 
 
    
 }
-.cards{
-    margin: 0 1% !important;
-    background-color: lawngreen;
-    display: flex;
+.cards{ 
+    background-color: rgb(109, 194, 25);
+    /* display: flex; */
     justify-content: space-between;
     align-items: stretch;
+    
     
 
     
@@ -27,21 +30,21 @@
     /* border-left: 10px solid blue; */
     /* background-color: rgb(27, 176, 230);
     padding-right: 40px; */
-    border-left:10px solid rgb(73, 165, 207);
     font-family: 'Krona One', sans-serif;
+    justify-content: space-around;
+    display: flex;
 
 
 }
 .deaths {
     /* border-left: 15px solid red;
     border-right: 15px solid red; */
-    box-shadow: 12px 12px 2px 1px, rgba(194, 45, 45, 0.643);
-    border-left:10px solid rgb(248, 129, 129);
     padding-top: 20px;
     justify-content: space-between;
+    font-family: 'Krona One', sans-serif;
     
 }
 .recovered {
-    border-left:10px solid rgb(104, 246, 111);
+    font-family: 'Krona One', sans-serif;
     
 }
